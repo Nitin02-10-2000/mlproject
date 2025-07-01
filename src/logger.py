@@ -9,6 +9,6 @@ logging.basicConfig(
     filename=Log_file_path,
     level=logging.INFO,
     format="[%(asctime)s] %(lineno)d %(levelname)s - %(message)s",
-   )
+    )
 if __name__=="__main__":
     logging.info("logging has entered")

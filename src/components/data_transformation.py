@@ -12,7 +12,7 @@ from sklearn.preprocessing import OneHotEncoder,StandardScaler
 from src.utils import save_object
 @dataclass
 class DataTransformerConfig:
-    preprocessr_obj_file=os.path.join('artifect',"processor.pkl")
+    preprocessr_obj_file=os.path.join('artifects',"processor.pkl")
 
 class DataTransformation:
     def __init__(self):
